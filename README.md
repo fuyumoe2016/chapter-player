@@ -1,35 +1,44 @@
 # Chapter Player
 
-**iPhone・Androidスマホで使う、YouTubeチャプター作成アプリです。** ログイン・アカウント登録・メール申請は不要です。
+**iPhone・Androidスマホ用のYouTubeチャプター作成アプリです。** ログイン・登録・メール申請は不要です。
 
-## スマホで使い始める
+## まずはZIPをダウンロード
 
-1. iPhoneはSafari、AndroidはChromeで、下のリンクを開きます。
-2. YouTube動画のURLを貼り付け、「読み込み」を押します。
-3. 記録したい位置で「タイムスタンプ」を押し、名前や勝敗を入力します。
-4. 「完成テキスト」をコピーして、YouTubeの説明欄などに貼り付けます。
+### [PDF説明書付きZIPをダウンロード](https://github.com/fuyumoe2016/chapter-player/releases/download/v1.1.0/Chapter_Player_v1.1.0.zip)
 
-**[スマホでChapter Playerを開く](https://chapter-player-open.fuyumoe.chatgpt.site)**
+初めて使う方は、上のリンクから **Chapter_Player_v1.1.0.zip** をスマホへダウンロードしてください。下のAssetsからも同じファイルを選べます。
 
-ZIPのダウンロードや起動コマンドは不要です。まずは上のリンクを開くだけで使えます。
+## iPhoneで使い始める
 
-## ホーム画面に追加する
+1. SafariでZIPをダウンロードします。
+2. 「ファイル」アプリのダウンロード先でZIPをタップして展開します。
+3. 展開したフォルダ内の **Chapter_Player_User_Guide.pdf** を開きます。
+4. PDFに記載された利用URLをSafariで開きます。
+5. YouTube動画のURLを貼り付け、「読み込み」を押します。
 
-- **iPhone：** Safariの「共有」→「ホーム画面に追加」→「追加」。ページメニュー内に「共有」がある場合は、そこから開きます。
-- **Android：** Chromeの右上「⋮」→「ホーム画面に追加」または「インストールしてショートカットを作成」を選び、表示に沿って追加します。
+## Androidで使い始める
 
-次回からホーム画面のアイコンで開けます。メニュー名はブラウザのバージョンによって異なります。
+1. ChromeでZIPをダウンロードします。
+2. Files by Googleなどのファイル管理アプリでZIPを選び、「解凍」を押します。
+3. 展開したフォルダ内の **Chapter_Player_User_Guide.pdf** を開きます。
+4. PDFに記載された利用URLをChromeで開きます。
+5. YouTube動画のURLを貼り付け、「読み込み」を押します。
 
-## 保存とバックアップ
+PDFには利用URL・QRコード・操作方法を1冊にまとめています。フォルダ内の **Chapter_Player.html** も公開版を開く入口です。開けない場合はPDFのURLをブラウザへコピーしてください。
 
-記録は使っているスマホのブラウザ内に自動保存します。クラウド同期はありません。設定の「バックアップを書き出す」で保存し、新しいスマホでは「バックアップを読み込む」で復元できます。
+## 次回からはホーム画面から
 
-閲覧データの削除や機種変更の前には、バックアップを保管してください。動画再生にはインターネット接続が必要です。
+- **iPhone：** アプリをSafariで開き、「共有」→「ホーム画面に追加」→「追加」。
+- **Android：** アプリをChromeで開き、右上「⋮」→「ホーム画面に追加」または「インストールしてショートカットを作成」から追加します。
 
-## PDF説明書
+メニュー名はブラウザのバージョンによって異なります。登録後はアイコンから開けます。
 
-**Releases** の `Chapter_Player_v1.1.0.zip` にPDF説明書を1冊同梱しています。詳しい操作やバックアップ方法は、こちらをご覧ください。
+## 記録とバックアップ
 
-保存・復元テストとビルドは確認済みです。iPhone・Androidの実機での動作確認は未実施です。
+「タイムスタンプ」でチャプターを追加し、名前や勝敗を入力。「完成テキスト」をコピーしてYouTubeの説明欄などへ貼り付けます。
 
-ホーム画面への追加方法の参考：[Appleサポート](https://support.apple.com/ja-jp/guide/iphone/iph42ab2f3a7/ios)、[Google Chromeヘルプ](https://support.google.com/chrome/answer/9658361?co=GENIE.Platform%3DAndroid&hl=ja)
+記録はスマホのブラウザ内に自動保存します。クラウド同期はありません。設定の「バックアップを書き出す」「バックアップを読み込む」で保管・復元できます。閲覧データの削除や機種変更の前にはバックアップを保管してください。動画再生にはインターネット接続が必要です。
+
+保存・復元テストとビルドは確認済みです。iPhone・Android実機での動作確認は未実施です。
+
+ZIPの開き方の参考：[Appleサポート](https://support.apple.com/ja-jp/102532)、[Files by Googleヘルプ](https://support.google.com/files/answer/9048509?hl=ja)
